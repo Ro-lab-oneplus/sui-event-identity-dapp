@@ -1,0 +1,17 @@
+{
+  "name": "sui-event-identity-dapp",
+  "version": "1.0.0",
+  "description": "Decentralized Event Management with Digital Identity using Sui & EVM",
+  "private": true,
+  "workspaces": [
+    "contracts/sui",
+    "contracts/evm",
+    "frontend"
+  ],
+  "scripts": {
+    "postinstall": "pnpm -r install"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
